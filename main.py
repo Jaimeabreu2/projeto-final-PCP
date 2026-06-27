@@ -101,13 +101,16 @@ def executar_simulacao(
 
     quantidade_ciclos = determinar_quantidade_ciclos(len(filosofos))
     log = LogSimulacao(verbose)
-
-    if tipo_solucao == "ordenacao":
-        solucao = SolucaoOrdenacao()
-        nome_solucao = "Ordenação de Recursos"
-    else:
-        solucao = SolucaoGarcom(len(filosofos))
-        nome_solucao = "Garçom"
+    solucao = (
+        SolucaoOrdenacao()
+        if tipo_solucao == "ordenacao"
+        else SolucaoGarcom(len(filosofos))
+    )
+    nome_solucao = (
+        "Ordenação de Recursos"
+        if tipo_solucao == "ordenacao"
+        else "Garçom"
+    )
 
     print(f"Iniciando a simulação com {quantidade_ciclos} ciclos...")
     inicio_simulacao = time.perf_counter()
