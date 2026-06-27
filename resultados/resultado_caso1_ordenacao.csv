@@ -1,0 +1,6 @@
+caso,solucao,filosofo,tempo_tranquilo,tempo_com_sede,tempo_bebendo,vezes_bebeu,espera_media
+caso1,Ordenação de Recursos,0,5.592842,5.807677,6.002707,6,0.967946
+caso1,Ordenação de Recursos,1,4.880767,5.518273,6.003187,6,0.919712
+caso1,Ordenação de Recursos,2,4.812966,4.586692,6.001664,6,0.764449
+caso1,Ordenação de Recursos,3,4.914317,3.483660,6.002713,6,0.580610
+caso1,Ordenação de Recursos,4,7.620329,1.797144,6.002614,6,0.299524

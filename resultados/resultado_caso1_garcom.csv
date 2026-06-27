@@ -1,0 +1,6 @@
+caso,solucao,filosofo,tempo_tranquilo,tempo_com_sede,tempo_bebendo,vezes_bebeu,espera_media
+caso1,Garçom,0,6.456672,10.009410,6.002329,6,1.668235
+caso1,Garçom,1,5.690987,9.763182,6.002992,6,1.627197
+caso1,Garçom,2,5.462444,14.004072,6.002601,6,2.334012
+caso1,Garçom,3,7.429121,11.037225,6.002027,6,1.839537
+caso1,Garçom,4,5.576623,11.888758,6.002459,6,1.981460

@@ -1,0 +1,36 @@
+SIMULAÇÃO DO PROBLEMA DO BAR DOS FILÓSOFOS
+=======================================================
+Data e hora: 26/06/2026 20:56:57
+Comando executado: main.py matrizes/caso1.txt comparar --seed 42 --csv --graficos --relatorio
+Seed utilizada: 42
+Casos executados: caso1
+Soluções executadas: Ordenação de Recursos, Garçom
+
+CONFIGURAÇÃO DOS CASOS
+-------------------------------------------------------
+caso1: 5 filósofos, 5 garrafas e 6 ciclos por filósofo.
+
+MÉTRICAS PRINCIPAIS
+-----------------------------------------------------------------------------------------------------------
+Caso    Solução                  Tempo total  Espera média     Maior     Menor   Diferença   Deadlock   Starvation
+------------------------------------------------------------------------------------------------------------------
+caso1   Ordenação de Recursos         17.40s         0.71s     0.97s     0.30s       0.67s        Não          Não
+caso1   Garçom                        25.47s         1.89s     2.33s     1.63s       0.71s        Não          Não
+
+ARQUIVOS CSV GERADOS
+-------------------------------------------------------
+resultados\resultado_caso1_ordenacao.csv
+resultados\resultado_caso1_garcom.csv
+resultados\resultado_caso1_comparar.csv
+
+GRÁFICOS GERADOS
+-------------------------------------------------------
+resultados\grafico_tempo_total_caso1.png
+resultados\grafico_espera_media_caso1.png
+
+CONCLUSÃO
+-------------------------------------------------------
+A execução foi concluída sem deadlock.
+Todos os filósofos completaram a quantidade esperada de ciclos.
+No caso1, Ordenação de Recursos apresentou menor tempo total, enquanto Ordenação de Recursos apresentou menor espera média geral.
+Não foi identificado forte indício de starvation.

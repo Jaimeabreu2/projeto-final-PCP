@@ -1,0 +1,7 @@
+caso,solucao,tempo_total,espera_media_geral,maior_espera_media,menor_espera_media,diferenca_espera,deadlock,starvation
+caso1,Ordenação de Recursos,17.773677,0.786630,1.291175,0.468174,0.823001,Não,Não
+caso1,Garçom,24.461001,1.749787,1.997380,1.417680,0.579701,Não,Não
+caso2,Ordenação de Recursos,20.111874,0.349814,0.569055,0.073216,0.495839,Não,Não
+caso2,Garçom,22.957588,0.417080,0.640608,0.218191,0.422417,Não,Não
+caso3,Ordenação de Recursos,13.180543,0.320433,0.877465,0.000017,0.877448,Não,Sim
+caso3,Garçom,15.183411,0.439253,0.703319,0.000013,0.703307,Não,Não
